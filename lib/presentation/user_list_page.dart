@@ -57,16 +57,6 @@ class UserListPage extends StatelessWidget {
         child: Column(
           children: [
             UserItemWidget(user: user, path: currentPath),
-            // if (user.children.isNotEmpty)
-            //   Padding(
-            //     padding: const EdgeInsets.only(left: 15),
-            //     child: ExpansionTile(
-            //       title: Text(user.name, style: const TextStyle(fontSize: 18)),
-            //       iconColor: Colors.black,
-            //       initiallyExpanded: false,
-            //       children: _buildUserList(user.children, currentPath),
-            //     ),
-            //   ),
           ],
         ),
       );

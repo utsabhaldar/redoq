@@ -155,8 +155,4 @@ class UserRepository {
   List<UserModel> fetchUsers() {
     return _users;
   }
-
-  // void updateUser(int index, UserModel user) {
-  //   _users[index] = user;
-  // }
 }
